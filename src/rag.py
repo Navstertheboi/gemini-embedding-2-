@@ -65,7 +65,7 @@ def query(
 def query_with_answer(
     text: str,
     top_k: int = 5,
-    use_claude: bool = True,
+    use_claude: bool = False,
     namespace: str = "",
 ) -> str:
     """
